@@ -11,6 +11,15 @@
 #slider{
     width: 100%;
 }
+
+
 .navbar{
     background-color: grey;
+    text-align: center;
+    color: plum;
 }
+.previous_passwords{
+    margin-bottom: 20px;
+
+}
+

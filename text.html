@@ -10,42 +10,42 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="script.js"></script>
-
-
+    
+    
 </head>
 <body>
     
     <nav class="navbar ">
-        <a class="navbar-brand" herf="#"> Random Passwor Generton</a>
+        <a class="navbar-brand" herf="#"> Random Password Generton</a>
     </nav>
-<div class="conatiner">
-
-</div>
-  <div class="row">
-      <div class="col-lg-8 col-sm-12 mx-auto">
-        <div class="content">
-            <div class="h4">Random Password Genertor</div>
-            <br  />
-            <input type="text"id="display">
-            <br  />
-            <input type="range" min="8" max="128" name="slider" id="slider">
-            <br  />  
-            <button onclick="">Generate</button>
-            <button onclick="">Copy to Clipboard </button>
-            <div id="Lenght"></div>
+    <div class="conatiner">
+        
+    </div>
+    <div class="row">
+        <div class="col-lg-8 col-sm-12 mx-auto">
+            <div class="content">
+                <h4>Random Password Genertor</h4>
+                <br  />
+                <input type="text"id="display">
+                <br  />
+                <input type="range" min="8" max="128" name="slider" id="slider">
+                <br  />  
+                <button onclick="generate()">Generate</button>
+                <button onclick="">Copy to Clipboard </button>
+                
+            </div>
+            
+            <div class="previous_passwords">
+                <b>Previously Generated Passwords</b>
+                <br   />
+                <div id="lastPassword"></div>
+            </div>
+            
+            
         </div>
-
-        <div class="previous_passwords">
-            <b>Previously Generated Passwords</b>
-            <br   />
-            <div id="lastPassword"></div>
-        </div>
-
-
-      </div>
-  </div> 
-
+    </div> 
+    
+    <script src="script.js"></script>
 
 </body>
 </html>

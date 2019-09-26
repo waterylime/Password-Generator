@@ -4,6 +4,8 @@
     background-color: plum;
     padding: 20px;
     width: 100%;
+    color: rgb(59, 59, 59);
+    font-size: 25px;
 }
 #display{
     width: 100%;
@@ -14,12 +16,20 @@
 
 
 .navbar{
-    background-color: grey;
+    background-color: rgb(59, 59, 59);  
     text-align: center;
-    color: plum;
+    color: plum; 
+   margin-bottom: 35px;
 }
 .previous_passwords{
     margin-bottom: 20px;
+    font-display: bold;
+}
 
+button{
+    background-color:  rgb(59, 59, 59);
+    color: plum;
+   margin-left: 124px;
+   border-right: 36px;
 }
 
